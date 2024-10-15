@@ -4,7 +4,7 @@ R="\e[31m"
 G="\e[32m"
 N="\e[0m"
 
-instances=("mongodb" "mysql" "redis" ""rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web" )
+instances=("mongodb" "mysql" "redis" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web" )
 zone_id="Z02357183AC34D1F7B6MH"
 
 for i in "${instances[@]}"
